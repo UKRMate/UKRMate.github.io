@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  background-color: #191970;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 20px; /* Кругла форма блока */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #00008B;
+  margin: 20px auto;
+  width: 60%;
+  height: 800px; /* Змініть це значення для більшої висоти */
+}
